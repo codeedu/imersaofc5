@@ -1,4 +1,4 @@
-[<img src="../img/nestjs.svg" width="72"/>](Nest.js)
+[<img src="../img/golang.svg" width="36"/>](Nest.js)
 
 # Imersão Full Stack & FullCycle 5.0 - Fincycle - Backend de processamento das transações feito com Golang
 
