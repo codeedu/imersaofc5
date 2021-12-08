@@ -1,0 +1,21 @@
+GET http://localhost:3000/accounts
+
+###
+GET http://localhost:3000/accounts/57608821-7549-4e0c-b789-cede29f938ec
+
+
+###
+POST http://localhost:3000/accounts
+Content-Type: application/json
+
+{
+    "name": "conta 1"
+}
+
+###
+PATCH http://localhost:3000/accounts/d0ffba28-ca9e-4ef9-8799-4bf1d6f28780
+Content-Type: application/json
+
+{
+    "name": "conta 1 alterada",
+}
