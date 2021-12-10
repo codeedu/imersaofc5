@@ -8,7 +8,7 @@ export default withIronSessionApiRoute(login, ironConfig);
 
 async function login(req: NextApiRequest, res: NextApiResponse) {
   const { token } = req.body;
-
+  console.log(req);
   try {
     const { data } = await axios.get(`${process.env.NEST_API_HOST}/accounts/${token}`);
     req.session.account = data;

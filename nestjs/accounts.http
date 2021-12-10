@@ -5,7 +5,7 @@ GET http://localhost:3000/accounts/57608821-7549-4e0c-b789-cede29f938ec
 
 
 ###
-POST http://localhost:3000/accounts
+POST http://backend.imersao.fullcycle.com.br/accounts
 Content-Type: application/json
 
 {

@@ -1,14 +1,14 @@
-GET http://localhost:3000/orders
-x-token: uwjv5dqrlpo
+GET http://backend.imersao.fullcycle.com.br/orders
+x-token: nwashx2nnej
 
 ###
 GET http://localhost:3000/orders/75efb3c2-7ac3-4ebf-b8dd-fa89e758c6d7
 x-token: uwjv5dqrlpo
 
 ###
-POST http://localhost:3000/orders
+POST http://backend.imersao.fullcycle.com.br/orders
 Content-Type: application/json
-x-token: uwjv5dqrlpo
+x-token: nwashx2nnej
 
 {
     "amount": 1000.33,

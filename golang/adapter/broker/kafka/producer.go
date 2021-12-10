@@ -29,12 +29,12 @@ func (p *Producer) Publish(msg interface{}, key []byte, topic string) error {
 	}
 	message := &ckafka.Message{
 		TopicPartition: ckafka.TopicPartition{Topic: &topic, Partition: ckafka.PartitionAny},
-		Value: presenterMsg,
-		Key: key,
+		Value:          presenterMsg,
+		Key:            key,
 	}
 	err = producer.Produce(message, nil)
 	if err != nil {
-		return err
+		panic(err)
 	}
 	return nil
 }
