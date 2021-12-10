@@ -15,7 +15,7 @@ AddRelTag("async", $lineStyle = DashedLine())
 
 SHOW_PERSON_PORTRAIT()
 
-System(client,"Client","Sistema que solicita o pagamento")
+System_Ext(client,"Client","Sistema que solicita o pagamento")
 Person(user,"Administrador","Acompanha as transações de pagamento")
 Person(superadmin,"Administrador da Gateway","Acompanha as métricas de transações de pagamento")
 
